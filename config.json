@@ -1,0 +1,7 @@
+{
+    "port": 5000,
+    "whitelist": ["rolestest.vercel.app"],
+    "whitelistHttps": ["https://rolestest.vercel.app"],
+    "methods": ["POST", "OPTIONS"],
+    "contentTypes": ["application/json;charset=utf-8", "application/x-www-form-urlencoded;charset=UTF-8"]
+}

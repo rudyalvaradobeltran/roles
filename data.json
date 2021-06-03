@@ -1,0 +1,41 @@
+{
+    "roles": [
+        {
+            "id": 1,
+            "name": "Admin"
+        },
+        {
+            "id": 2,
+            "name": "Basic"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "John",
+            "roleId": 1
+        },
+        {
+            "id": 2,
+            "name": "Mario",
+            "roleId": 2
+        },
+        {
+            "id": 3,
+            "name": "Elizabeth",
+            "roleId": 2
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "Mario's project",
+            "userId": 2
+        },
+        {
+            "id": 2,
+            "name": "Elizabeth's project",
+            "userId": 3
+        }
+    ]
+}
